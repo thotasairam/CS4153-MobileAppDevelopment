@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0725E7201DD89DB800B9F2A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0725E71F1DD89DB800B9F2A1 /* AppDelegate.swift */; };
+		0725E7251DD89DB800B9F2A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0725E7231DD89DB800B9F2A1 /* Main.storyboard */; };
+		0725E7281DD89DB800B9F2A1 /* MW02_thota_saiRam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0725E7261DD89DB800B9F2A1 /* MW02_thota_saiRam.xcdatamodeld */; };
+		0725E72A1DD89DB800B9F2A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0725E7291DD89DB800B9F2A1 /* Assets.xcassets */; };
+		0725E72D1DD89DB800B9F2A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0725E72B1DD89DB800B9F2A1 /* LaunchScreen.storyboard */; };
+		0725E7381DD89DB900B9F2A1 /* MW02_thota_saiRamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0725E7371DD89DB900B9F2A1 /* MW02_thota_saiRamTests.swift */; };
+		0725E7431DD89DB900B9F2A1 /* MW02_thota_saiRamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0725E7421DD89DB900B9F2A1 /* MW02_thota_saiRamUITests.swift */; };
+		076AC31E1DD8B8C4001B50B1 /* RollingStockTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076AC31D1DD8B8C4001B50B1 /* RollingStockTableViewController.swift */; };
+		076AC3221DD8E05C001B50B1 /* AddRollingStockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076AC3211DD8E05C001B50B1 /* AddRollingStockViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0725E7341DD89DB900B9F2A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0725E7141DD89DB800B9F2A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0725E71B1DD89DB800B9F2A1;
+			remoteInfo = MW02_thota_saiRam;
+		};
+		0725E73F1DD89DB900B9F2A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0725E7141DD89DB800B9F2A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0725E71B1DD89DB800B9F2A1;
+			remoteInfo = MW02_thota_saiRam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0725E71C1DD89DB800B9F2A1 /* MW02_thota_saiRam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MW02_thota_saiRam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0725E71F1DD89DB800B9F2A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0725E7241DD89DB800B9F2A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0725E7271DD89DB800B9F2A1 /* MW02_thota_saiRam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MW02_thota_saiRam.xcdatamodel; sourceTree = "<group>"; };
+		0725E7291DD89DB800B9F2A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0725E72C1DD89DB800B9F2A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0725E72E1DD89DB800B9F2A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0725E7331DD89DB900B9F2A1 /* MW02_thota_saiRamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MW02_thota_saiRamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0725E7371DD89DB900B9F2A1 /* MW02_thota_saiRamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MW02_thota_saiRamTests.swift; sourceTree = "<group>"; };
+		0725E7391DD89DB900B9F2A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0725E73E1DD89DB900B9F2A1 /* MW02_thota_saiRamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MW02_thota_saiRamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0725E7421DD89DB900B9F2A1 /* MW02_thota_saiRamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MW02_thota_saiRamUITests.swift; sourceTree = "<group>"; };
+		0725E7441DD89DB900B9F2A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		076AC31D1DD8B8C4001B50B1 /* RollingStockTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RollingStockTableViewController.swift; sourceTree = "<group>"; };
+		076AC3211DD8E05C001B50B1 /* AddRollingStockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRollingStockViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0725E7191DD89DB800B9F2A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0725E7301DD89DB900B9F2A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0725E73B1DD89DB900B9F2A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0725E7131DD89DB800B9F2A1 = {
+			isa = PBXGroup;
+			children = (
+				0725E71E1DD89DB800B9F2A1 /* MW02_thota_saiRam */,
+				0725E7361DD89DB900B9F2A1 /* MW02_thota_saiRamTests */,
+				0725E7411DD89DB900B9F2A1 /* MW02_thota_saiRamUITests */,
+				0725E71D1DD89DB800B9F2A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0725E71D1DD89DB800B9F2A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0725E71C1DD89DB800B9F2A1 /* MW02_thota_saiRam.app */,
+				0725E7331DD89DB900B9F2A1 /* MW02_thota_saiRamTests.xctest */,
+				0725E73E1DD89DB900B9F2A1 /* MW02_thota_saiRamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0725E71E1DD89DB800B9F2A1 /* MW02_thota_saiRam */ = {
+			isa = PBXGroup;
+			children = (
+				0725E71F1DD89DB800B9F2A1 /* AppDelegate.swift */,
+				076AC31D1DD8B8C4001B50B1 /* RollingStockTableViewController.swift */,
+				076AC3211DD8E05C001B50B1 /* AddRollingStockViewController.swift */,
+				0725E7231DD89DB800B9F2A1 /* Main.storyboard */,
+				0725E7291DD89DB800B9F2A1 /* Assets.xcassets */,
+				0725E72B1DD89DB800B9F2A1 /* LaunchScreen.storyboard */,
+				0725E72E1DD89DB800B9F2A1 /* Info.plist */,
+				0725E7261DD89DB800B9F2A1 /* MW02_thota_saiRam.xcdatamodeld */,
+			);
+			path = MW02_thota_saiRam;
+			sourceTree = "<group>";
+		};
+		0725E7361DD89DB900B9F2A1 /* MW02_thota_saiRamTests */ = {
+			isa = PBXGroup;
+			children = (
+				0725E7371DD89DB900B9F2A1 /* MW02_thota_saiRamTests.swift */,
+				0725E7391DD89DB900B9F2A1 /* Info.plist */,
+			);
+			path = MW02_thota_saiRamTests;
+			sourceTree = "<group>";
+		};
+		0725E7411DD89DB900B9F2A1 /* MW02_thota_saiRamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0725E7421DD89DB900B9F2A1 /* MW02_thota_saiRamUITests.swift */,
+				0725E7441DD89DB900B9F2A1 /* Info.plist */,
+			);
+			path = MW02_thota_saiRamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0725E71B1DD89DB800B9F2A1 /* MW02_thota_saiRam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0725E7471DD89DB900B9F2A1 /* Build configuration list for PBXNativeTarget "MW02_thota_saiRam" */;
+			buildPhases = (
+				0725E7181DD89DB800B9F2A1 /* Sources */,
+				0725E7191DD89DB800B9F2A1 /* Frameworks */,
+				0725E71A1DD89DB800B9F2A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MW02_thota_saiRam;
+			productName = MW02_thota_saiRam;
+			productReference = 0725E71C1DD89DB800B9F2A1 /* MW02_thota_saiRam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0725E7321DD89DB900B9F2A1 /* MW02_thota_saiRamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0725E74A1DD89DB900B9F2A1 /* Build configuration list for PBXNativeTarget "MW02_thota_saiRamTests" */;
+			buildPhases = (
+				0725E72F1DD89DB900B9F2A1 /* Sources */,
+				0725E7301DD89DB900B9F2A1 /* Frameworks */,
+				0725E7311DD89DB900B9F2A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0725E7351DD89DB900B9F2A1 /* PBXTargetDependency */,
+			);
+			name = MW02_thota_saiRamTests;
+			productName = MW02_thota_saiRamTests;
+			productReference = 0725E7331DD89DB900B9F2A1 /* MW02_thota_saiRamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0725E73D1DD89DB900B9F2A1 /* MW02_thota_saiRamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0725E74D1DD89DB900B9F2A1 /* Build configuration list for PBXNativeTarget "MW02_thota_saiRamUITests" */;
+			buildPhases = (
+				0725E73A1DD89DB900B9F2A1 /* Sources */,
+				0725E73B1DD89DB900B9F2A1 /* Frameworks */,
+				0725E73C1DD89DB900B9F2A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0725E7401DD89DB900B9F2A1 /* PBXTargetDependency */,
+			);
+			name = MW02_thota_saiRamUITests;
+			productName = MW02_thota_saiRamUITests;
+			productReference = 0725E73E1DD89DB900B9F2A1 /* MW02_thota_saiRamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0725E7141DD89DB800B9F2A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Sai Ram Thota";
+				TargetAttributes = {
+					0725E71B1DD89DB800B9F2A1 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					0725E7321DD89DB900B9F2A1 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0725E71B1DD89DB800B9F2A1;
+					};
+					0725E73D1DD89DB900B9F2A1 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0725E71B1DD89DB800B9F2A1;
+					};
+				};
+			};
+			buildConfigurationList = 0725E7171DD89DB800B9F2A1 /* Build configuration list for PBXProject "MW02_thota_saiRam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0725E7131DD89DB800B9F2A1;
+			productRefGroup = 0725E71D1DD89DB800B9F2A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0725E71B1DD89DB800B9F2A1 /* MW02_thota_saiRam */,
+				0725E7321DD89DB900B9F2A1 /* MW02_thota_saiRamTests */,
+				0725E73D1DD89DB900B9F2A1 /* MW02_thota_saiRamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0725E71A1DD89DB800B9F2A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0725E72D1DD89DB800B9F2A1 /* LaunchScreen.storyboard in Resources */,
+				0725E72A1DD89DB800B9F2A1 /* Assets.xcassets in Resources */,
+				0725E7251DD89DB800B9F2A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0725E7311DD89DB900B9F2A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0725E73C1DD89DB900B9F2A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0725E7181DD89DB800B9F2A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0725E7201DD89DB800B9F2A1 /* AppDelegate.swift in Sources */,
+				076AC3221DD8E05C001B50B1 /* AddRollingStockViewController.swift in Sources */,
+				0725E7281DD89DB800B9F2A1 /* MW02_thota_saiRam.xcdatamodeld in Sources */,
+				076AC31E1DD8B8C4001B50B1 /* RollingStockTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0725E72F1DD89DB900B9F2A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0725E7381DD89DB900B9F2A1 /* MW02_thota_saiRamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0725E73A1DD89DB900B9F2A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0725E7431DD89DB900B9F2A1 /* MW02_thota_saiRamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0725E7351DD89DB900B9F2A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0725E71B1DD89DB800B9F2A1 /* MW02_thota_saiRam */;
+			targetProxy = 0725E7341DD89DB900B9F2A1 /* PBXContainerItemProxy */;
+		};
+		0725E7401DD89DB900B9F2A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0725E71B1DD89DB800B9F2A1 /* MW02_thota_saiRam */;
+			targetProxy = 0725E73F1DD89DB900B9F2A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0725E7231DD89DB800B9F2A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0725E7241DD89DB800B9F2A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0725E72B1DD89DB800B9F2A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0725E72C1DD89DB800B9F2A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0725E7451DD89DB900B9F2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0725E7461DD89DB900B9F2A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0725E7481DD89DB900B9F2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MW02_thota_saiRam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "webtek.MW02-thota-saiRam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0725E7491DD89DB900B9F2A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MW02_thota_saiRam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "webtek.MW02-thota-saiRam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0725E74B1DD89DB900B9F2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MW02_thota_saiRamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "webtek.MW02-thota-saiRamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MW02_thota_saiRam.app/MW02_thota_saiRam";
+			};
+			name = Debug;
+		};
+		0725E74C1DD89DB900B9F2A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MW02_thota_saiRamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "webtek.MW02-thota-saiRamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MW02_thota_saiRam.app/MW02_thota_saiRam";
+			};
+			name = Release;
+		};
+		0725E74E1DD89DB900B9F2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MW02_thota_saiRamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "webtek.MW02-thota-saiRamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MW02_thota_saiRam;
+			};
+			name = Debug;
+		};
+		0725E74F1DD89DB900B9F2A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MW02_thota_saiRamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "webtek.MW02-thota-saiRamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MW02_thota_saiRam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0725E7171DD89DB800B9F2A1 /* Build configuration list for PBXProject "MW02_thota_saiRam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0725E7451DD89DB900B9F2A1 /* Debug */,
+				0725E7461DD89DB900B9F2A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0725E7471DD89DB900B9F2A1 /* Build configuration list for PBXNativeTarget "MW02_thota_saiRam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0725E7481DD89DB900B9F2A1 /* Debug */,
+				0725E7491DD89DB900B9F2A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0725E74A1DD89DB900B9F2A1 /* Build configuration list for PBXNativeTarget "MW02_thota_saiRamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0725E74B1DD89DB900B9F2A1 /* Debug */,
+				0725E74C1DD89DB900B9F2A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0725E74D1DD89DB900B9F2A1 /* Build configuration list for PBXNativeTarget "MW02_thota_saiRamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0725E74E1DD89DB900B9F2A1 /* Debug */,
+				0725E74F1DD89DB900B9F2A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0725E7261DD89DB800B9F2A1 /* MW02_thota_saiRam.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0725E7271DD89DB800B9F2A1 /* MW02_thota_saiRam.xcdatamodel */,
+			);
+			currentVersion = 0725E7271DD89DB800B9F2A1 /* MW02_thota_saiRam.xcdatamodel */;
+			path = MW02_thota_saiRam.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0725E7141DD89DB800B9F2A1 /* Project object */;
+}
